@@ -3,10 +3,7 @@ import axios from 'axios';
 
 
 const instance = axios.create({
-	baseURL: 'https://api.themoviedb.org/3'      //getting movie database
+	baseURL: 'https://api.themoviedb.org/3'      //getting movie database info
 });
-
-// instance.get('/foo-bar');
-// https://api.themoviedb.org/3/foo-bar
 
 export default instance;
