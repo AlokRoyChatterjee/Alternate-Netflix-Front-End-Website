@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from './axios';
-import "./Row.css";
+import "./movies.css";
 
 const url = "https://image.tmdb.org/t/p/original"
 
